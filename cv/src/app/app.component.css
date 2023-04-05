@@ -5,9 +5,6 @@
     --complementarioDos: #f1ece7;
     --oscuro: #090909;
     --claro: #ffffff;
-    --gris: #393939;
-    --gris-claro: #ccc;
-    
 }
 
 /* ### Se cambian en todos a no ser que se especifique lo contrario ### */
@@ -217,7 +214,6 @@ p{
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
 }
 
 
@@ -229,7 +225,7 @@ p{
 
 .contactar-form div{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .comentario {
@@ -239,57 +235,3 @@ p{
 .colocar  {
     display: flex;
 }
-
-
-.listar_contacto {
-    display: grid;
-    grid-template-columns:auto;
-    grid-template-rows: 1fr 1fr;
-    align-items: center;
-    font-size: 20px;
-}
-
-.listar_contacto img{
-    max-height: 5rem;
-    margin-left: 3rem;
-}space-around
-
-.listar_contacto li{
-    display: contents;
-    padding-right: 10px;
-    
-}
-
-.formulario form{
-    margin: 0 auto;
-    color: var(--gris);
-    width: 800px;
-    max-width: 100%;
-    text-align: initial;
-}
-
-.formulario input,textarea{
-    border: solid 1px var(--gris-claro);
-    outline: none;
-    background-color: none;
-    padding: 10px;
-    border-radius: 10px;
-    color: var(--oscuro);
-    background-color: var(--claro);
-}
-.formulario input:focus,textarea:focus{
-    border-color: var(--complementarioUno);
-}
-.formulario div{
-    padding: 3px;
-    display: flex;
-
-}
-
-textarea{
-
-    resize: none;
-    height: 100px;
-}
-
-
